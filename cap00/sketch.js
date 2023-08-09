@@ -5,5 +5,5 @@ function setup() {
 
 function draw() {
   //esta parte se ejecuta una y otra vez por toda la eternidad
-  background(220);
+  background(210);
 }
