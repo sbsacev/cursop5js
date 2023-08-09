@@ -15,6 +15,11 @@ function draw() {
   }
 }
 
+function mousePressed(){
+  pelotas.push(new Pelota(mouseX,mouseY));
+}
+
+
 /* // las líneas 12, 13, 14 y 15 puede reemplazarlas por:
 for(let pelotitas of pelotas){
     pelotitas.mostrar();
