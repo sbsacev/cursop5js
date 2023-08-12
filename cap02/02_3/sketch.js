@@ -3,7 +3,7 @@ let img = [];
 
 function preload(){
   for(let i=0; i<10; i++){
-   img[i]=loadImage("ani"+nf(i,2,0)+".png");
+   img[i]=loadImage("ani"+nf(i,2)+".png");
   }
 }
 
