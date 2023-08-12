@@ -8,7 +8,7 @@ function setup(){
   createCanvas(400,400);
 }
 
-function draw(){<z
+function draw(){
   background(200);
   textSize(16);
   for(let i=0; i<texto.length; i++){
