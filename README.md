@@ -44,7 +44,7 @@ Las carpetas están ordenadas de acuerdo a la siguiente organización de los cap
 ## Capítulo 03.
 - 3.1. Objetos
 
-## Capítulo 4.
+## Capítulo 04.
 - 4.1. Trabajando con píxeles
 
 ## Capítulo 05.
