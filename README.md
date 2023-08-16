@@ -11,7 +11,7 @@ https://www.interactival.cl/bain020/codigos/
 Otros códigos de ejemplo se pueden encontrar en:
 https://www.interactival.cl/bain020/
 
-Las carpetas están ordenadas de acuerdo a la siguiente organización de los capítulos de los pauntes:
+Las carpetas están ordenadas de acuerdo a la siguiente organización de los capítulos de los apuntes:
 
 ## Capítulo 0.
 - 0.1. Introducción
@@ -33,26 +33,26 @@ Las carpetas están ordenadas de acuerdo a la siguiente organización de los cap
 - 1.14. Animaciones
 
 ## Capítulo 02.
-2.1. Arreglos
-2.2. Imágenes
-2.3. Archivos txt
-2.4. Sonidos
-2.5. Análisis de frecuencia
-2.6. Accediendo a la cámara
-2.7. DOM
+- 2.1. Arreglos
+- 2.2. Imágenes
+- 2.3. Archivos txt
+- 2.4. Sonidos
+- 2.5. Análisis de frecuencia
+- 2.6. Accediendo a la cámara
+- 2.7. DOM
 
 ## Capítulo 03.
-3.1. Objetos
+- 3.1. Objetos
 
 ## Capítulo 4.
-4.1. Trabajando con píxeles
+- 4.1. Trabajando con píxeles
 
 ## Capítulo 05.
-5.1. Ejemplos de aplicaciones
-5.1.1. Movimiento Parabólico
-5.1.2. Funciones y derivadas
-5.1.3. Onda viajera
-5.1.4. Coordenadas polares
-5.1.5. Código de colores para resistencias eléctricas
-5.1.6. Campo eléctrico
-5.1.7. Tabla periódica (JSON)
+- 5.1. Ejemplos de aplicaciones
+- 5.1.1. Movimiento Parabólico
+- 5.1.2. Funciones y derivadas
+- 5.1.3. Onda viajera
+- 5.1.4. Coordenadas polares
+- 5.1.5. Código de colores para resistencias eléctricas
+- 5.1.6. Campo eléctrico
+- 5.1.7. Tabla periódica (JSON)
