@@ -32,17 +32,17 @@ Las carpetas están ordenadas de acuerdo a la siguiente organización de los cap
 - 1.13. El tiempo en p5.js
 - 1.14. Animaciones
 
-##Capítulo 2. Vectores	57
-- 2.1. Operaciones con vectores	57
-  - Suma:	58
-  - Resta:	59
-  - Multiplicación:	60
-  - División:	61
-  - Producto punto:	62
-  - Producto cruz:	63
-  - Magnitud:	64
-  - Normalizar:	65
-  - Ángulo entre vectores:	66
+## Capítulo 2.
+- 2.1. Operaciones con vectores
+  - Suma
+  - Resta
+  - Multiplicación
+  - División
+  - Producto punto
+  - Producto cruz
+  - Magnitud
+  - Normalizar
+  - Ángulo entre vectores
 
 ## Capítulo 2.
 - 2.1. Arreglos
