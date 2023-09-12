@@ -16,7 +16,7 @@ Las carpetas están ordenadas de acuerdo a la siguiente organización de los cap
 ## Capítulo 0.
 - 0.1. Introducción
 
-## Capítulo 01.
+## Capítulo 1.
 - 1.1. Variables                                               
 - 1.2. Dibujo de geometrías sencillas
 - 1.3. Geometrías más complejas
@@ -32,7 +32,7 @@ Las carpetas están ordenadas de acuerdo a la siguiente organización de los cap
 - 1.13. El tiempo en p5.js
 - 1.14. Animaciones
 
-## Capítulo 02.
+## Capítulo 2.
 - 2.1. Arreglos
 - 2.2. Imágenes
 - 2.3. Archivos txt
@@ -41,13 +41,13 @@ Las carpetas están ordenadas de acuerdo a la siguiente organización de los cap
 - 2.6. Accediendo a la cámara
 - 2.7. DOM
 
-## Capítulo 03.
+## Capítulo 3.
 - 3.1. Objetos
 
-## Capítulo 04.
+## Capítulo 4.
 - 4.1. Trabajando con píxeles
 
-## Capítulo 05.
+## Capítulo 5.
 - 5.1. Ejemplos de aplicaciones
 - 5.1.1. Movimiento Parabólico
 - 5.1.2. Funciones y derivadas
