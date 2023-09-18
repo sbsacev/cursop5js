@@ -1,14 +1,12 @@
-let a=300;
-let b;
-let c;
+let v;
 
 function setup() {
   createCanvas(400, 400);
-  b=width/2;
+  v=createVector(3,5);
 }
 
 function draw() {
   background(220);
-  c=a+b;
-  print(c);
+  text("componente x = "+v.x,40,40);
+  text("componente y = "+v.y,40,60);
 }

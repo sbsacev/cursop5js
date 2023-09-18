@@ -1,14 +1,10 @@
-let a=300;
-let b;
-let c;
+let v1;
+let v3;
 
 function setup() {
   createCanvas(400, 400);
-  b=width/2;
-}
-
-function draw() {
   background(220);
-  c=a+b;
-  print(c);
+  v1=createVector(3,5);
+  
+  v3=p5.Vector.normalize(v1);
 }
