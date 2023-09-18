@@ -13,7 +13,7 @@ function draw() {
   m=minute();
   s=second();
   textSize(60);
-  text(nf(m,2)+":"+nf(m,2)+":"+nf(m,2), width/2,200);
+  text(nf(h,2)+":"+nf(m,2)+":"+nf(s,2), width/2,200);
   textSize(20);
   text(millis(),width/2,300);
 }
