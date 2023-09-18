@@ -60,6 +60,7 @@ Las carpetas están ordenadas de acuerdo a la siguiente organización de los cap
 - 5.1. Trabajando con píxeles
 
 ## Capítulo 6.
+- 6.1. Aleatoriedad, Random y Perlin noise
 
 ## Capítulo 7.
 - 7.1. Ejemplos de aplicaciones
