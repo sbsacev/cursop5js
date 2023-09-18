@@ -1,24 +1,18 @@
-let mic;
-let fft;
-let espectro;
+let a=1;
+let b=2;
+let c=3;
 
 function setup() {
-  createCanvas(512, 512);
-  mic = new p5.AudioIn();
-  mic.start();
-  fft = new p5.FFT(0.9,512);
-  fft.setInput(mic);
+  createCanvas(400, 400);
 }
 
 function draw() {
-  background(0);
-  espectro = fft.analyze();
-  noFill();
-  stroke(255,0,0);
-  strokeWeight(4);
-  beginShape();
-  for(let i = 0; i < espectro.length; i++){
-    vertex(i,map(espectro[i],0,300,height,0));
+  background(220);
+  if(a<b && b<c){
+    text("Se cumplen ambas condiciones",100,200);
   }
-  endShape();
+  
+  if(a>b || b<c){
+    text("Se cumple una de las dos condiciones",100,300);
+  }
 }

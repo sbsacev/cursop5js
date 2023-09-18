@@ -1,20 +1,16 @@
-let x=0;
-let img = [];
-
-function preload(){
-  for(let i=0; i<10; i++){
-   img[i]=loadImage("ani"+nf(i,2)+".png");
-  }
-}
-
 function setup() {
-  createCanvas(500, 500);
-  frameRate(20);
+  createCanvas(400, 400);
+  rectMode(CENTER);
+  angleMode(DEGREES);
 }
 
 function draw() {
   background(220);
-  let index=x%10;
-  image(img[index],0,0);
-  x++;
+  push();
+  fill(255,0,0);
+  strokeWeight(8);
+  stroke(0,255,0);
+  circle(200,200,100);
+  pop();
+  rect(200,350,100,50);
 }

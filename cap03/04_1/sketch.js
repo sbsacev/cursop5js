@@ -1,14 +1,14 @@
-let a=300;
-let b;
-let c;
+let cancion;
+
+function preload(){
+  cancion=loadSound("audio.mp3");
+}
 
 function setup() {
   createCanvas(400, 400);
-  b=width/2;
+  cancion.play();
 }
 
 function draw() {
   background(220);
-  c=a+b;
-  print(c);
 }

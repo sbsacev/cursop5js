@@ -1,9 +1,14 @@
-let numeros=[];
+let a=300;
+let b;
+let c;
 
-function setup(){
-   createCanvas(400, 400);
-   background(200);
-   for(let i=0; i<100; i++){
-      numeros[i]=floor(random(500));
-   }
+function setup() {
+  createCanvas(400, 400);
+  b=width/2;
+}
+
+function draw() {
+  background(220);
+  c=a+b;
+  print(c);
 }

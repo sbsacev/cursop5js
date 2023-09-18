@@ -1,34 +1,28 @@
-let imagen;
-let indice;
-let col;
+let pelotas=[];
 
-function preload(){
-  imagen=loadImage("fish.png");
-}
-
-function setup(){
-  createCanvas(512,512);
-  pixelDensity(1);
-}
-
-function draw(){
-  background(0,20,255);
-  
-  image(imagen,0,0);
-  fill(0,220);
-  rect(0,0,width,height);
-  loadPixels();
-  for(let x=mouseX-70; x<mouseX+70; x++){
-    for(let y=mouseY-70; y<mouseY+70; y++){
-      let indice = (y*width+x)*4;
-      col=imagen.get(x,y);
-      if(dist(mouseX,mouseY,x,y)<70){
-        pixels[indice]=col[0];
-        pixels[indice+1]=col[1];
-        pixels[indice+2]=col[2];
-        pixels[indice+3]=255;
-      }
-    }
+function setup() {
+  createCanvas(400, 400);
+  for(let i=0; i<10; i++){
+    pelotas[i]= new Pelota(random(100,200),random(100,200));
   }
-  updatePixels();
 }
+
+function draw() {
+  background(220,100,60,80);
+  for(let i=0; i<pelotas.length; i++){
+    pelotas[i].mostrar();
+    pelotas[i].mover();
+  }
+}
+
+function mousePressed(){
+  pelotas.push(new Pelota(mouseX,mouseY));
+}
+
+
+/* // las líneas 12, 13, 14 y 15 puede reemplazarlas por:
+for(let pelotitas of pelotas){
+    pelotitas.mostrar();
+    pelotitas.mover();
+  }
+*/
