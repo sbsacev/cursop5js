@@ -1,3 +1,4 @@
+//este programa tiene un error a propósito
 function setup() {
   createCanvas(400, 400);
 }
