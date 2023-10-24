@@ -1,9 +1,9 @@
-let song;
+let cancion;
 let boton;
 let fft;
 
 function preload(){
-  song=loadSound("audio.mp3");  
+  cancion=loadSound("audio.mp3");  
 }
 
 function setup() {
@@ -25,9 +25,9 @@ function draw() {
 }
 
 function toggle(){
-  if(song.isPlaying()){
-     song.pause();
+  if(cancion.isPlaying()){
+     cancion.pause();
      }else{
-    song.play();
+    cancion.play();
   } 
 }
