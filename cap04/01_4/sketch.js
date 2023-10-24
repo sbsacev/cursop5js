@@ -5,10 +5,9 @@ function setup() {
 function draw() {
   background(220);
   textSize(20);
-  text(rag(HALF_PI),200,200);
+  text(raiz(1,0,1),200,200);
 }
 
-function rag(x){
-  let g=180*x/PI;
-  return g;
+function raiz(x, y, z){
+  return sqrt(x*x+y*y+z*z);
 }

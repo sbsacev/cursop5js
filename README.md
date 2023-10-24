@@ -54,7 +54,8 @@ Las carpetas están ordenadas de acuerdo a la siguiente organización de los cap
 - 3.7. DOM
 
 ## Capítulo 4.
-- 4.1. Objetos
+- 4.1. Funciones
+- 4.2. Objetos
 
 ## Capítulo 5.
 - 5.1. Trabajando con píxeles
