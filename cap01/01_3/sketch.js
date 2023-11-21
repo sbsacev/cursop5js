@@ -1,4 +1,4 @@
-//este programa tiene un error a propósito
+////Este ejemplo está hecho para que produzca un error a propósito
 function setup() {
   createCanvas(400, 400);
 }
